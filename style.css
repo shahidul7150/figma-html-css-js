@@ -8,7 +8,9 @@
 }
 
 body {
-    font-family: 'Josefin Sans', 'Lato', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+
+    ;
 }
 
 .top-header {
@@ -42,17 +44,20 @@ body {
     display: flex;
     align-items: center;
     grid-gap: 5px;
+    cursor: pointer;
 }
 
 .header-top-cart img {
     margin-left: 10px;
+    cursor: pointer;
 }
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    grid-gap: 35px;
     flex-direction: row;
-    padding: 8px 0px;
+    padding: 9px 0px;
 
 }
 
@@ -69,6 +74,7 @@ nav {
     font-size: 34px;
     font-weight: 600;
     color: #0D0E43;
+    cursor: pointer;
 }
 
 .navigation .link-nav a {
@@ -76,6 +82,8 @@ nav {
     color: #0D0E43;
     font-weight: 400;
     padding-left: 10px;
+    font-family: 'Lato', sans-serif;
+
 
 }
 
@@ -101,7 +109,7 @@ nav {
     padding: 10px;
 }
 
-.search img {
+.search .image {
     position: absolute;
     background-color: #FB2E86;
     width: 51px;
@@ -109,4 +117,118 @@ nav {
     right: 0;
     top: 0;
     bottom: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.search .image img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+
+.heros-ection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 564px;
+    background: #F2F0FF;
+    font-family: 'Lato', sans-serif;
+}
+
+.heros-section::after {
+    content: '';
+    width: 15px;
+    height: 15px;
+    background-color: #FB2E86;
+    border-radius: 50%;
+    left: 184px;
+    top: 490px;
+    position: absolute;
+}
+
+
+
+.heros-section .left-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+}
+
+.heros-section .left-content {
+    width: 387px;
+    height: 387px;
+
+
+}
+
+.heros-section .left-content .article {
+    position: absolute;
+    width: 30rem;
+    height: 248px;
+    left: 375px;
+    top: 250px;
+
+
+}
+
+.heros-section .left-content .article p>small {
+    font-size: 16px;
+    color: #FB2E86;
+}
+
+.heros-section .left-content .article p {
+    font-size: 16px;
+}
+
+.heros-section .left-content .article h2 {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #000;
+}
+
+.heros-section .left-content .article button {
+    width: 163px;
+    height: 50px;
+    margin-top: 50px;
+    background-color: #FB2E86;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+}
+
+.heros-section .right-content img {
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    right: 5rem;
+    top: 225px;
+    ;
+
+}
+
+.carousel {
+    width: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.carousel div {
+    margin-top: 60px;
+    border: 1px solid #FB2E86;
+    width: 10px;
+    height: 10px;
+    transform: rotate(45deg);
+    cursor: pointer;
+
+}
+
+.carousel div:first-child {
+    background-color: #FB2E86;
 }
