@@ -602,4 +602,110 @@ nav {
     padding-top: 10px;
 }
 
+.product-ads {
+    display: flex;
+    height: 20rem;
+    background-color: #F1F0FF;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 40px;
+}
+
+.product-ads img {
+    width: 18rem;
+}
+
+.product-ads .ads-content {
+    width: 30rem;
+    position: relative;
+
+}
+
+.product-ads .ads-content h2 {
+    font-size: 35px;
+    color: #151875;
+    margin-bottom: 14px;
+}
+
+.product-ads .ads-content .p-1,
+.p-2,
+.p-3 {
+    font-size: 12px;
+    z-index: 99;
+    margin-left: 20px;
+    line-height: 18px;
+
+
+}
+
+
+
+.product-ads .ads-content .p-1::before {
+
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #F52B70;
+    border-radius: 50%;
+    margin-right: 14px;
+    position: absolute;
+    z-index: 999;
+    left: 5px;
+
+}
+
+.product-ads .ads-content .p-2::before {
+
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #2B2BF5;
+    border-radius: 50%;
+    margin-right: 14px;
+    position: absolute;
+    z-index: 999;
+    left: 5px;
+
+}
+
+.product-ads .ads-content .p-3::before {
+
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #2BF5CC;
+    border-radius: 50%;
+    margin-right: 14px;
+    position: absolute;
+    z-index: 999;
+    left: 5px;
+
+}
+
+.product-ads .ads-content .btn-content {
+    margin-top: 15px;
+    display: flex;
+    grid-gap: 12px;
+    align-items: center;
+}
+
+.product-ads .ads-content .btn-content button {
+    background-color: #FB2E86;
+    border: none;
+    font-size: 20px;
+    padding: 8px 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+}
+
+.product-ads .ads-content .btn-content div>p {
+    font-size: 14px;
+    color: #151875;
+    font-weight: 300;
+}
+
+.product-ads .ads-content .btn-content div p:last-child {
+    font-family: 'lato', sans-serif;
+}
+
 /* --------------------- */
