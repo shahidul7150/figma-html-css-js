@@ -708,4 +708,83 @@ nav {
     font-family: 'lato', sans-serif;
 }
 
+
+
+
+
+
+
+
+
+
+
+.trends-product {
+
+    width: 80%;
+    grid-gap: 10px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+
+}
+
+.trends-product h2 {
+    text-align: center;
+    font-size: 42px;
+    color: #151875;
+    margin-top: 50px;
+}
+
+.trends-product .trends-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    padding: 10px;
+    position: relative;
+    margin-top: 50px;
+
+
+
+}
+
+.trends-product .trends-card .card {
+    background-color: #fff;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.trends-product .trends-card .card .img-card img {
+
+    width: 100%;
+    margin: 0 auto;
+}
+
+.trends-product .trends-card .card .card-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 8px;
+
+}
+
+.trends-product .trends-card .card .card-content h6 {
+    font-size: 16px;
+    text-align: center;
+    color: #151875;
+}
+
+.trends-product .trends-card .card .card-content div {
+    display: flex;
+    font-size: 12px;
+    text-align: center;
+    color: #1A0B5B4D;
+    padding-top: 10px;
+    justify-content: center;
+    grid-gap: 12px;
+}
+
+.trends-product .trends-card .card .card-content div p:first-child {
+    color: #00009D;
+    font-size: 14px;
+}
+
 /* --------------------- */
